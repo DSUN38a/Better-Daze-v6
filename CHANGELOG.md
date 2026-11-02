@@ -1,3 +1,7 @@
+# 2026-11-02 — Unified brand palette
+
+Replaced the individual pastel page themes with a shared chalk / midnight-ink system. Vermilion and citron are reserved for small navigation markers, progress and deliberate action controls. Neutral surfaces replace large coloured hero and card backgrounds. Dark appearance uses the same brand palette. All six sections retain labels, numbering and small colour markers. Existing layout, data and audio behaviour are unchanged.
+
 # 2026-11-02 — Approved panda identity and opening sequence
 
 Applied the approved sleeping panda / tomato crescent identity in chalk, midnight ink, vermilion and acid citron. Added versioned 180/192/512 PNG icon assets and updated Apple touch, favicon, web manifest, in-app artwork and fallback SVG references.
