@@ -51,3 +51,7 @@ body.night[data-page=move]{--bg:#30241F;--surface:#3D2E26;--soft:#4B372B;--line:
 body.night[data-page=work]{--bg:#232524;--surface:#2E3230;--soft:#3B423E;--line:#505B54}
 body.night[data-page=nutrition]{--bg:#2C291D;--surface:#393424;--soft:#48402A;--line:#6A5D36;--section-marker:#D1B458}
 body.night[data-page=review]{--bg:#282621;--surface:#353128;--soft:#443D31;--line:#625745}
+
+/* Custom geometric identity: a raised A and open, upright lettering. */
+.wordmark{width:min(72%,270px);line-height:1}.wordmark>svg{display:block;width:100%;height:auto;color:var(--ink)}.wordmark .version{margin-top:10px;font-size:9px;letter-spacing:.12em;line-height:1.5}.launch-wordmark{width:min(100%,330px);margin:22px auto!important}.launch-wordmark svg{width:100%;height:auto;display:block;color:var(--ink)}h1,h2,h3{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-stretch:condensed;letter-spacing:-.025em}h1{font-weight:400;line-height:1.18}h2{font-weight:500}.eyebrow{letter-spacing:.13em}.logo{flex-shrink:0}.launch-screen .launch-wordmark{font-size:inherit}
+@media(max-width:359px){.wordmark{width:min(74%,230px)}.wordmark .version{font-size:8px}}
