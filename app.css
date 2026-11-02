@@ -22,3 +22,10 @@ body.reduce-motion .launch-screen{animation:none!important}body.reduce-motion .l
 
 /* Restrained colour: only navigation marks, progress, and deliberate actions. */
 .page>.section:first-child .eyebrow:before{content:'';display:inline-block;width:6px;height:6px;margin-right:9px;vertical-align:1px;background:var(--section-marker)}.metric-link{border-top:2px solid var(--ink)}.metric-link:nth-child(1){border-top-color:#C94E3D}.metric-link:nth-child(3){border-top-color:#D4DF42}.music-playing:before{color:#C94E3D}.hero .zzz{color:var(--ink)}.sunpanel .sunmetric{background:transparent}.card.sage .field{background:var(--bg)}
+
+/* Wellbeing: editorial typography with quiet, nature-led marks. */
+.page>.section:first-child:after{display:none}.section-art{position:absolute;right:0;top:28px;width:102px;height:120px;color:var(--ink)}
+h1{font-size:clamp(40px,8.8vw,70px);line-height:1.05;letter-spacing:-.05em}.page>.section:first-child{min-height:195px;padding-right:106px}.lead{font-size:15px;line-height:1.6}.hero,.card,.sunpanel,.note{border-radius:16px}.hero{border-top:3px solid var(--accent);background:var(--surface)}.card{background:var(--surface)}.hero h2{line-height:1.12}.sunpanel{background:var(--surface)}.section{margin-top:30px}.nav button{min-height:52px}.night .section-art{opacity:.9}.metric-link .eyebrow{letter-spacing:.09em}.metric-link .meta{margin-top:7px}.sunpanel>.btn{margin:4px 4px 6px 0;white-space:normal}.page.active{animation:page-enter .25s ease-out}
+@media(min-width:720px){.section-art{width:150px;height:150px;top:10px}.page>.section:first-child{padding-right:180px;min-height:230px}}
+@media(max-width:359px){.section-art{width:80px;height:100px}.page>.section:first-child{padding-right:84px}h1{font-size:36px}}
+@media(prefers-reduced-motion:reduce){.page.active{animation:none}}

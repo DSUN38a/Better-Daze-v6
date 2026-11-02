@@ -12,7 +12,7 @@ A calm, mobile-first wellness app built from the original Better Daze V4.5 sourc
 - Sleep/wake settings, a relative wind-down timeline, 15/30/60-minute wind-down timer, sleep log, restedness rating and seven-night sleep chart.
 - 15/25/45/50-minute focus timer with pause/reset, a separate 10-minute break and completed-session history. Deadlines survive reloads and catch up when the app returns.
 - Light, Dark, Follow iPhone/system and Auto sunset/sunrise appearance. Daylight lookup requests location only after a tap, sends approximate coordinates to Open-Meteo and does not save coordinates. Refresh daylight each day; Auto follows system appearance when daylight is unavailable.
-- Opt-in real classical recordings, short introductions, fade to silence, no overlaps, once per section per page session, master mute and visible playback status. Full performer/source/licence credits are in Settings. Food is quiet. Compact licensed excerpts ship with the app and are precached for offline use. Decoded audio is retained after permission for faster section changes. Each introduction now plays three seconds longer before its three-second fade.
+- Opt-in real classical recordings, short introductions, fade to silence, no overlaps, on each section change, master mute and visible playback status. Full performer/source/licence credits are in Settings. Food is quiet. Compact licensed excerpts ship with the app and are precached for offline use. Decoded audio is retained after permission for faster section changes. Each introduction now plays three seconds longer before its three-second fade.
 - JSON backup/restore, validation before replacement and a local pre-restore safety copy. Migration supports the uploaded V6 prototype and original V3/V4 data shape, including counts, priorities, notes and reflections.
 - PWA manifest, original panda icon and offline caching of the app shell on HTTPS.
 
@@ -43,3 +43,10 @@ Audio excerpts are 15/18/13/15/15 seconds for Today/Sleep/Move/Work/Review. Fade
 ## Approved panda identity and opening
 
 The updated panda icon is used in-app and through versioned Apple touch and web app icon assets. The startup logo sequence lasts up to 3.2 seconds and respects reduced motion. Tap Enter with music during it, or Play opening afterward, to hear Vivaldi’s Autumn, RV 293, I. Allegro (15-second local excerpt, fade from 12 to 15 seconds). Continue quietly mutes audio. Replay opening animation is available in Settings. Existing Home Screen icons may retain artwork cached by the phone; the site now supplies the new versioned assets.
+
+## iPhone audio correction
+
+When music is requested, the app asks for the browser’s playback audio-session category if supported, resumes the audio context and shows a message if the browser remains suspended. It still requires music permission and respects master mute. Opening music or a section intro can be used as a sound check. Browser tests cannot confirm the volume, Bluetooth output, Silent Mode behaviour or audibility on a physical iPhone.
+
+
+Wellbeing refresh: nature-led section illustrations, gentler headlines and rounded cards. Automatic sunset appearance remembers coarse coordinates only on this device and computes daily sunrise/sunset offline using SunCalc (vendor license included). Enable once from Today; Forget location removes saved coordinates. Auto falls back to device appearance without usable daylight.

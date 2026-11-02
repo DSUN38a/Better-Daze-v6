@@ -1,3 +1,7 @@
+# 2026-11-02 — iPhone audio playback correction
+
+Request the playback audio-session category at the moment music or chimes are requested, when the browser supports it. Warming audio does not request the playback category. Resume/recreate audio contexts as needed and display a useful message if playback remains suspended. Section switches can play their introductions again; mute and interruption still apply. This addresses a documented iPhone/WebKit silent-switch behaviour, but audibility on the user’s physical phone still needs confirmation.
+
 # 2026-11-02 — Unified brand palette
 
 Replaced the individual pastel page themes with a shared chalk / midnight-ink system. Vermilion and citron are reserved for small navigation markers, progress and deliberate action controls. Neutral surfaces replace large coloured hero and card backgrounds. Dark appearance uses the same brand palette. All six sections retain labels, numbering and small colour markers. Existing layout, data and audio behaviour are unchanged.
@@ -25,3 +29,6 @@ Implemented: section colour identities; serif headings; responsive cards/navigat
 The exact text of the earlier 17-item conversation checklist and a separately labelled V5 source file were not retrievable. This is the recovered implementation scope, not a claim that an unseen checklist has been verified item by item. Original V4.5 source reference: DSUN38a/Better-Daze, index.html blob c25769482c6136cb7d1dd37cec0c1884eefb313b.
 
 Audio: Vivaldi Spring (12 s), Chopin Nocturne Op.9 No.2 (15 s), Beethoven Symphony No.7 Allegretto (10 s), Debussy Clair de lune (12 s), Satie Gymnopédie No.1 (12 s). Full sources, performers, licences and streaming links are in app.js and the in-app credits. These are recordings, replacing the prototype's generic synthesized cue.
+
+
+Wellbeing refresh: nature-led section illustrations, gentler headlines and rounded cards. Automatic sunset appearance remembers coarse coordinates only on this device and computes daily sunrise/sunset offline using SunCalc (vendor license included). Enable once from Today; Forget location removes saved coordinates. Auto falls back to device appearance without usable daylight.
