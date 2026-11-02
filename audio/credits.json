@@ -52,14 +52,14 @@
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg/Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg.mp3"
     },
     "startup": {
-      "title": "Vivaldi \u00b7 Autumn, I. Allegro",
-      "artist": "The Modena Chamber Orchestra",
-      "license": "Public Domain Mark 1.0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "source": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Autumn%2C_RV_293_-_I._Allegro.ogg",
-      "url": "./audio/startup.mp3",
-      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Autumn%2C_RV_293_-_I._Allegro.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Autumn%2C_RV_293_-_I._Allegro.ogg.mp3",
-      "seconds": 15
+      "title": "Morning skylark \u00b7 nature sounds",
+      "artist": "Lawrence Shove / \u00a9 The British Library Board",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Eurasian_Skylark_(Alauda_arvensis)_(W1CDR0001421_BD2).ogg",
+      "url": "./audio/morning-skylark.mp3",
+      "seconds": 12,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Eurasian_Skylark_%28Alauda_arvensis%29_%28W1CDR0001421_BD2%29.ogg"
     },
     "nutrition": {
       "title": "Bach \u00b7 Prelude in C major, BWV 846",
