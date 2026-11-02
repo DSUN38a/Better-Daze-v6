@@ -39,3 +39,7 @@ Verified: legacy and prototype migration, backup round trip, malformed-input rej
 An editorial design study informed by Peter Saville’s high-level use of typography, colour coding and graphic restraint. Regular sans-serif type, fine rules, small colour registers, numbered section navigation, flat colour fields and clearer phone controls replace the layered legacy styles. The panda remains the app icon. Dashboard tiles open their tracking sections. All six sections were checked at 320px and 390px widths without horizontal overflow; this is browser viewport QA, not a physical iPhone test.
 
 Audio excerpts are 15/18/13/15/15 seconds for Today/Sleep/Move/Work/Review. Fade starts at 12/15/10/12/12 seconds. See audio/LICENSES.md and audio/credits.json for recording provenance and adaptations.
+
+## Approved panda identity and opening
+
+The updated panda icon is used in-app and through versioned Apple touch and web app icon assets. The startup logo sequence lasts up to 3.2 seconds and respects reduced motion. Tap Enter with music during it, or Play opening afterward, to hear Vivaldi’s Autumn, RV 293, I. Allegro (15-second local excerpt, fade from 12 to 15 seconds). Continue quietly mutes audio. Replay opening animation is available in Settings. Existing Home Screen icons may retain artwork cached by the phone; the site now supplies the new versioned assets.

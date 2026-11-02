@@ -1,3 +1,11 @@
+# 2026-11-02 — Approved panda identity and opening sequence
+
+Applied the approved sleeping panda / tomato crescent identity in chalk, midnight ink, vermilion and acid citron. Added versioned 180/192/512 PNG icon assets and updated Apple touch, favicon, web manifest, in-app artwork and fallback SVG references.
+
+Added a 3.2-second launch animation with optional Enter with music / Continue quietly controls, keyboard Escape and reduced-motion support. It auto-dismisses for quick access; Play opening remains available after dismissal. Opening music is a local 15-second Vivaldi Autumn, RV 293, I. Allegro excerpt performed by The Modena Chamber Orchestra, with a three-second fade, source credit and Public Domain Mark provenance. Sound requires explicit user interaction and respects master mute. Existing app data is unchanged.
+
+Validated icon references, dimensions, local audio duration, browser opening playback and mute; all 13 regression tests pass.
+
 # 2026-11-02 — Graphic study and local audio
 
 Replaced fresh remote full-recording streams with five compact local MP3 excerpts (about 610 KiB total), preloaded and decoded once after consent. Each introduction holds for three more seconds before the existing three-second fade. Preserved mute, permission, once-per-session and interruption behaviour; added explicit replay. Audio derivatives retain each source recording licence.

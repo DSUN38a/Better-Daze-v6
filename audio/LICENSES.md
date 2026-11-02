@@ -51,3 +51,11 @@ Licence: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 Source: https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg
 
 File: review.mp3 · 15 seconds of playback. The opening excerpt has been trimmed, its leading silence removed and its loudness adjusted. The audio adaptation remains under the source recording licence.
+
+## Opening: Vivaldi · Autumn, I. Allegro
+
+Recording: The Modena Chamber Orchestra. Licence: Public Domain Mark 1.0.
+
+https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Autumn%2C_RV_293_-_I._Allegro.ogg
+
+Opening excerpt trimmed to 15.3 seconds, leading silence removed, loudness adjusted and encoded to mono MP3. App playback fades between 12 and 15 seconds.
