@@ -217,12 +217,12 @@ activatePage();render();tick();setInterval(tick,1000);if(db.settings.musicAllowe
 if(startupMessage)setTimeout(()=>notify(startupMessage),100);
 if('serviceWorker'in navigator&&location.protocol==='https:')navigator.serviceWorker.register('./sw.js').catch(()=>{});
 
-// Opening animation never delays access for more than 3.2 seconds. A tap starts music.
-let launchTimer=null,launchExitTimer=null;
-function dismissLaunch(){const panel=$('launchScreen');if(panel.hidden)return;clearTimeout(launchTimer);document.querySelector('main').inert=false;document.querySelector('.nav').inert=false;const returnFocus=panel.contains(document.activeElement);panel.classList.add('launch-leaving');if(reduced()){panel.hidden=true;panel.classList.remove('launch-leaving')}else launchExitTimer=setTimeout(()=>{panel.hidden=true;panel.classList.remove('launch-leaving')},220);if(returnFocus)$('openingReplay').focus({preventScroll:true})}
-function enterWithOpening(){clearTimeout(launchTimer);launchTimer=setTimeout(dismissLaunch,12000);db.settings.musicAllowed=true;db.settings.muted=false;played.delete('startup');persist();render();playIntro('startup');warmAudio()}
-function continueQuietly(){stopAllAudio();dismissLaunch();db.settings.muted=true;persist();render()}
-function showLaunch(){const panel=$('launchScreen');clearTimeout(launchTimer);clearTimeout(launchExitTimer);panel.classList.remove('launch-leaving');panel.hidden=false;document.querySelector('main').inert=true;document.querySelector('.nav').inert=true;$('launchMusic').focus({preventScroll:true});launchTimer=setTimeout(dismissLaunch,12000)}
+// A twelve-second opening; explicit sound entry hands off to the visible section.
+let launchTimer=null,launchExitTimer=null,launchContinueWithMusic=false;
+function dismissLaunch(){const panel=$('launchScreen');if(panel.hidden)return;clearTimeout(launchTimer);document.querySelector('main').inert=false;document.querySelector('.nav').inert=false;const returnFocus=panel.contains(document.activeElement);panel.classList.add('launch-leaving');if(reduced()){panel.hidden=true;panel.classList.remove('launch-leaving')}else launchExitTimer=setTimeout(()=>{panel.hidden=true;panel.classList.remove('launch-leaving')},220);if(returnFocus)$('openingReplay').focus({preventScroll:true});const continueMusic=launchContinueWithMusic;launchContinueWithMusic=false;if(continueMusic&&db.settings.musicAllowed&&!db.settings.muted)playIntro(db.lastSection)}
+function enterWithOpening(){launchContinueWithMusic=true;clearTimeout(launchTimer);launchTimer=setTimeout(dismissLaunch,12000);db.settings.musicAllowed=true;db.settings.muted=false;played.delete('startup');persist();render();playIntro('startup');warmAudio()}
+function continueQuietly(){launchContinueWithMusic=false;stopAllAudio();dismissLaunch();db.settings.muted=true;persist();render()}
+function showLaunch(){launchContinueWithMusic=false;const panel=$('launchScreen');clearTimeout(launchTimer);clearTimeout(launchExitTimer);panel.classList.remove('launch-leaving');panel.hidden=false;document.querySelector('main').inert=true;document.querySelector('.nav').inert=true;$('launchMusic').focus({preventScroll:true});launchTimer=setTimeout(dismissLaunch,12000)}
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!$('launchScreen').hidden)continueQuietly()});
 updateSun();
 showLaunch();

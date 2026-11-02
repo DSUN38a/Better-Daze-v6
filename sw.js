@@ -1,4 +1,4 @@
-const CACHE='better-daze-v6-20261102-phone-time-fields-21';
+const CACHE='better-daze-v6-20261102-opening-music-handoff-22';
 const ASSETS=['./','./index.html','./app.js','./app.css','./wordmark.svg','./vendor/suncalc.js','./panda-v3.png','./apple-touch-icon-v3.png','./icon-192-v3.png','./icon-512-v3.png','./manifest.webmanifest','./manifest.webmanifest?v=panda-detail-4','./apple-touch-icon-v3.png?v=panda-detail-4','./icon-192-v3.png?v=panda-detail-4','./icon-512-v3.png?v=panda-detail-4','./icon.svg','./audio/morning-skylark.mp3','./audio/today.mp3','./audio/sleep-v2.mp3','./audio/food.mp3','./audio/move.mp3','./audio/work.mp3','./audio/review.mp3'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('better-daze-v6-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
