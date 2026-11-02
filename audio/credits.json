@@ -2,7 +2,7 @@
   "changes": "Opening excerpts trimmed, leading silence removed, loudness adjusted, encoded to mono MP3. Playback includes a three-second fade. Each excerpt retains its source recording licence.",
   "recordings": {
     "today": {
-      "title": "Vivaldi · Spring",
+      "title": "Vivaldi \u00b7 Spring",
       "artist": "The Modena Chamber Orchestra",
       "license": "Public Domain Mark 1.0",
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
@@ -12,17 +12,17 @@
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg.mp3"
     },
     "sleep": {
-      "title": "Chopin · Nocturne Op. 9 No. 2",
-      "artist": "Peter Johnston",
-      "license": "CC0 1.0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "source": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_No._2_in_E_Flat_Major%2C_Op._9.ogg",
-      "url": "./audio/sleep.mp3",
+      "title": "Chopin \u00b7 Nocturne Op. 9 No. 2",
+      "artist": "Martha Goldstein",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Nocturne_Eb_major_Opus_9,_number_2.ogg",
+      "url": "./audio/sleep-v2.mp3",
       "seconds": 18,
-      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Chopin_Nocturne_No._2_in_E_Flat_Major%2C_Op._9.ogg/Chopin_Nocturne_No._2_in_E_Flat_Major%2C_Op._9.ogg.mp3"
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Frederic_Chopin_-_Nocturne_Eb_major_Opus_9%2C_number_2.ogg"
     },
     "move": {
-      "title": "Beethoven · Symphony No. 7, Allegretto",
+      "title": "Beethoven \u00b7 Symphony No. 7, Allegretto",
       "artist": "John Michel",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -32,7 +32,7 @@
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg/JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg.mp3"
     },
     "work": {
-      "title": "Debussy · Clair de lune",
+      "title": "Debussy \u00b7 Clair de lune",
       "artist": "Laurens Goedhart",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
@@ -42,7 +42,7 @@
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg.mp3"
     },
     "review": {
-      "title": "Satie · Gymnopédie No. 1",
+      "title": "Satie \u00b7 Gymnop\u00e9die No. 1",
       "artist": "Kevin MacLeod",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
@@ -52,7 +52,7 @@
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg/Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg.mp3"
     },
     "startup": {
-      "title": "Vivaldi · Autumn, I. Allegro",
+      "title": "Vivaldi \u00b7 Autumn, I. Allegro",
       "artist": "The Modena Chamber Orchestra",
       "license": "Public Domain Mark 1.0",
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
@@ -60,6 +60,16 @@
       "url": "./audio/startup.mp3",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Autumn%2C_RV_293_-_I._Allegro.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Autumn%2C_RV_293_-_I._Allegro.ogg.mp3",
       "seconds": 15
+    },
+    "nutrition": {
+      "title": "Bach \u00b7 Prelude in C major, BWV 846",
+      "artist": "Kimiko Ishizaka",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier,_Book_1_-_01_Prelude_No._1_in_C_major,_BWV_846.ogg",
+      "url": "./audio/food.mp3",
+      "seconds": 15,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier%2C_Book_1_-_01_Prelude_No._1_in_C_major%2C_BWV_846.ogg"
     }
   }
 }

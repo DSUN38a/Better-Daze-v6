@@ -10,17 +10,17 @@ Licence: [Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/
 
 Source: https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg
 
-File: today.mp3 · 15 seconds of playback. The opening excerpt has been trimmed, its leading silence removed and its loudness adjusted. The audio adaptation remains under the source recording licence.
+File: ./audio/today.mp3 · 15 seconds. Excerpt trimmed, leading silence removed, loudness adjusted and encoded to mono MP3. Three-second fade is applied during playback. The audio adaptation retains this source recording licence.
 
 ## Chopin · Nocturne Op. 9 No. 2
 
-Recording: Peter Johnston
+Recording: Martha Goldstein
 
-Licence: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Licence: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)
 
-Source: https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_No._2_in_E_Flat_Major%2C_Op._9.ogg
+Source: https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Nocturne_Eb_major_Opus_9,_number_2.ogg
 
-File: sleep.mp3 · 18 seconds of playback. The opening excerpt has been trimmed, its leading silence removed and its loudness adjusted. The audio adaptation remains under the source recording licence.
+File: ./audio/sleep-v2.mp3 · 18 seconds. Excerpt trimmed, leading silence removed, loudness adjusted and encoded to mono MP3. Three-second fade is applied during playback. The audio adaptation retains this source recording licence.
 
 ## Beethoven · Symphony No. 7, Allegretto
 
@@ -30,7 +30,7 @@ Licence: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 
 Source: https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg
 
-File: move.mp3 · 13 seconds of playback. The opening excerpt has been trimmed, its leading silence removed and its loudness adjusted. The audio adaptation remains under the source recording licence.
+File: ./audio/move.mp3 · 13 seconds. Excerpt trimmed, leading silence removed, loudness adjusted and encoded to mono MP3. Three-second fade is applied during playback. The audio adaptation retains this source recording licence.
 
 ## Debussy · Clair de lune
 
@@ -40,7 +40,7 @@ Licence: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 Source: https://commons.wikimedia.org/wiki/File:Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg
 
-File: work.mp3 · 15 seconds of playback. The opening excerpt has been trimmed, its leading silence removed and its loudness adjusted. The audio adaptation remains under the source recording licence.
+File: ./audio/work.mp3 · 15 seconds. Excerpt trimmed, leading silence removed, loudness adjusted and encoded to mono MP3. Three-second fade is applied during playback. The audio adaptation retains this source recording licence.
 
 ## Satie · Gymnopédie No. 1
 
@@ -50,12 +50,24 @@ Licence: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 Source: https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg
 
-File: review.mp3 · 15 seconds of playback. The opening excerpt has been trimmed, its leading silence removed and its loudness adjusted. The audio adaptation remains under the source recording licence.
+File: ./audio/review.mp3 · 15 seconds. Excerpt trimmed, leading silence removed, loudness adjusted and encoded to mono MP3. Three-second fade is applied during playback. The audio adaptation retains this source recording licence.
 
-## Opening: Vivaldi · Autumn, I. Allegro
+## Vivaldi · Autumn, I. Allegro
 
-Recording: The Modena Chamber Orchestra. Licence: Public Domain Mark 1.0.
+Recording: The Modena Chamber Orchestra
 
-https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Autumn%2C_RV_293_-_I._Allegro.ogg
+Licence: [Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/)
 
-Opening excerpt trimmed to 15.3 seconds, leading silence removed, loudness adjusted and encoded to mono MP3. App playback fades between 12 and 15 seconds.
+Source: https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Autumn%2C_RV_293_-_I._Allegro.ogg
+
+File: ./audio/startup.mp3 · 15 seconds. Excerpt trimmed, leading silence removed, loudness adjusted and encoded to mono MP3. Three-second fade is applied during playback. The audio adaptation retains this source recording licence.
+
+## Bach · Prelude in C major, BWV 846
+
+Recording: Kimiko Ishizaka
+
+Licence: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Source: https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier,_Book_1_-_01_Prelude_No._1_in_C_major,_BWV_846.ogg
+
+File: ./audio/food.mp3 · 15 seconds. Excerpt trimmed, leading silence removed, loudness adjusted and encoded to mono MP3. Three-second fade is applied during playback. The audio adaptation retains this source recording licence.
