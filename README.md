@@ -12,7 +12,7 @@ A calm, mobile-first wellness app built from the original Better Daze V4.5 sourc
 - Sleep/wake settings, a relative wind-down timeline, 15/30/60-minute wind-down timer, sleep log, restedness rating and seven-night sleep chart.
 - 15/25/45/50-minute focus timer with pause/reset, a separate 10-minute break and completed-session history. Deadlines survive reloads and catch up when the app returns.
 - Light, Dark, Follow iPhone/system and Auto sunset/sunrise appearance. Daylight lookup requests location only after a tap, sends approximate coordinates to Open-Meteo and does not save coordinates. Refresh daylight each day; Auto follows system appearance when daylight is unavailable.
-- Opt-in real classical recordings, short introductions, fade to silence, no overlaps, once per section per page session, master mute and visible playback status. Full performer/source/licence credits are in Settings. Food is quiet. Recordings stream from Wikimedia Commons and require internet.
+- Opt-in real classical recordings, short introductions, fade to silence, no overlaps, once per section per page session, master mute and visible playback status. Full performer/source/licence credits are in Settings. Food is quiet. Compact licensed excerpts ship with the app and are precached for offline use. Decoded audio is retained after permission for faster section changes. Each introduction now plays three seconds longer before its three-second fade.
 - JSON backup/restore, validation before replacement and a local pre-restore safety copy. Migration supports the uploaded V6 prototype and original V3/V4 data shape, including counts, priorities, notes and reflections.
 - PWA manifest, original panda icon and offline caching of the app shell on HTTPS.
 
@@ -29,7 +29,13 @@ Serve the repository root with any static HTTP server. There is no build or depe
 Run state regression checks with:
 
 ```sh
-node --test tests/state.test.cjs
+node --test tests/*.test.cjs
 ```
 
-Verified: legacy and prototype migration, backup round trip, malformed-input rejection, corrupt-storage protection, overnight sleep arithmetic and exactly-once timer completion. Browser smoke checks cover routine progress, overnight sleep logging, charts, priorities, timer reload, appearance and reduced-motion settings. No real iPhone hardware test has been performed. Offline installation requires HTTPS and a successful initial visit; streaming music and daylight lookup are online features. Browser background alerts/cloud sync are not implemented.
+Verified: legacy and prototype migration, backup round trip, malformed-input rejection, corrupt-storage protection, overnight sleep arithmetic and exactly-once timer completion. Browser smoke checks cover routine progress, overnight sleep logging, charts, priorities, timer reload, appearance and reduced-motion settings. No real iPhone hardware test has been performed. Offline installation requires HTTPS and a successful initial visit; daylight lookup is an online feature. Browser background alerts/cloud sync are not implemented.
+
+## Graphic study update
+
+An editorial design study informed by Peter Saville’s high-level use of typography, colour coding and graphic restraint. Regular sans-serif type, fine rules, small colour registers, numbered section navigation, flat colour fields and clearer phone controls replace the layered legacy styles. The panda remains the app icon. Dashboard tiles open their tracking sections. All six sections were checked at 320px and 390px widths without horizontal overflow; this is browser viewport QA, not a physical iPhone test.
+
+Audio excerpts are 15/18/13/15/15 seconds for Today/Sleep/Move/Work/Review. Fade starts at 12/15/10/12/12 seconds. See audio/LICENSES.md and audio/credits.json for recording provenance and adaptations.

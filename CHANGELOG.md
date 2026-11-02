@@ -1,3 +1,9 @@
+# 2026-11-02 — Graphic study and local audio
+
+Replaced fresh remote full-recording streams with five compact local MP3 excerpts (about 610 KiB total), preloaded and decoded once after consent. Each introduction holds for three more seconds before the existing three-second fade. Preserved mute, permission, once-per-session and interruption behaviour; added explicit replay. Audio derivatives retain each source recording licence.
+
+Reworked phone layout with flat colour fields, regular sans-serif type, section numbering, fine rules and colour registers. Enlarged touch targets, made summary tiles navigable, improved routine editing, preserved sleep form values during unrelated renders and added same-tab scroll-to-top. Browser QA at 320px and 390px plus 10 passing regression tests.
+
 # 2026-11-02 — V6 development update
 
 The uploaded fresh build omitted established Better Daze features. This update restores them from the original repository's V4.5 source and adds the recovered morning requirements.

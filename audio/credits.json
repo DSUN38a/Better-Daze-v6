@@ -1,0 +1,55 @@
+{
+  "changes": "Opening excerpts trimmed, leading silence removed, loudness adjusted, encoded to mono MP3. Playback includes a three-second fade. Each excerpt retains its source recording licence.",
+  "recordings": {
+    "today": {
+      "title": "Vivaldi · Spring",
+      "artist": "The Modena Chamber Orchestra",
+      "license": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg",
+      "url": "./audio/today.mp3",
+      "seconds": 15,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg/The_Modena_Chamber_Orchestra_-_Vivaldi%27s_Spring%2C_RV_269_-_I._Allegro.ogg.mp3"
+    },
+    "sleep": {
+      "title": "Chopin · Nocturne Op. 9 No. 2",
+      "artist": "Peter Johnston",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Chopin_Nocturne_No._2_in_E_Flat_Major%2C_Op._9.ogg",
+      "url": "./audio/sleep.mp3",
+      "seconds": 18,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Chopin_Nocturne_No._2_in_E_Flat_Major%2C_Op._9.ogg/Chopin_Nocturne_No._2_in_E_Flat_Major%2C_Op._9.ogg.mp3"
+    },
+    "move": {
+      "title": "Beethoven · Symphony No. 7, Allegretto",
+      "artist": "John Michel",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg",
+      "url": "./audio/move.mp3",
+      "seconds": 13,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg/JOHN_MICHEL_CELLO-BEETHOVEN_SYMPHONY_7_Allegretto.ogg.mp3"
+    },
+    "work": {
+      "title": "Debussy · Clair de lune",
+      "artist": "Laurens Goedhart",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg",
+      "url": "./audio/work.mp3",
+      "seconds": 15,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg/Clair_de_lune_%28Claude_Debussy%29_Suite_bergamasque.ogg.mp3"
+    },
+    "review": {
+      "title": "Satie · Gymnopédie No. 1",
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg",
+      "url": "./audio/review.mp3",
+      "seconds": 15,
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg/Kevin_MacLeod_-_Erik_Satie_Gymnopedie_No_1.ogg.mp3"
+    }
+  }
+}
