@@ -67,3 +67,7 @@ body.night[data-page=review]{--bg:#282621;--surface:#353128;--soft:#443D31;--lin
 @keyframes morning-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @media(prefers-reduced-motion:reduce){.dawn-sun{transform:translateY(-30px);opacity:.7}.dawn-bird{opacity:.35}}
 body.reduce-motion .dawn-sun{transform:translateY(-30px);opacity:.7}body.reduce-motion .dawn-bird{opacity:.35}
+
+/* Keep iPhone's native time editor inside its form card. */
+#sleep form .grid{gap:16px}#sleep form .grid>label{display:block;min-width:0;max-width:100%}.field[type=time]{appearance:none;-webkit-appearance:none;display:block;box-sizing:border-box;width:100%;min-width:0;max-width:100%;min-inline-size:0;margin-inline:0;padding:12px 10px}.field[type=time]::-webkit-date-and-time-value{min-width:0;text-align:left}.field[type=time]::-webkit-datetime-edit{min-width:0;padding:0}
+@media(max-width:420px){#sleep form .grid{grid-template-columns:minmax(0,1fr);gap:14px}#sleep form .grid label .field{margin-top:6px}}
